@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/edinh/Old desktop/Devoirs/A3/IsepAndroidproject/app/src/main/res/layout/activity_create_challenge.xml" value="0.1" />
         <entry key="..\:/Users/edinh/Old desktop/Devoirs/A3/IsepAndroidproject/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/edinh/Old desktop/Devoirs/A3/IsepAndroidproject/app/src/main/res/layout/activity_main.xml" value="0.14375" />
         <entry key="..\:/Users/edinh/Old desktop/Devoirs/A3/IsepAndroidproject/app/src/main/res/layout/activity_profil.xml" value="0.1308876811594203" />
         <entry key="..\:/Users/edinh/Old desktop/Devoirs/A3/IsepAndroidproject/app/src/main/res/layout/activity_register.xml" value="0.14375" />
+        <entry key="..\:/Users/edinh/Old desktop/Devoirs/A3/IsepAndroidproject/app/src/main/res/xml/file_paths.xml" value="0.1334853090172239" />
       </map>
     </option>
   </component>

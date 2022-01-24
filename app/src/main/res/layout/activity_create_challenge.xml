@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/dark_blue"
+
+    tools:context=".CreateChallenge">
+
+
+    <ImageView
+        android:id="@+id/ivTakenPhoto"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+    />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/textView_ML_labels"
+        />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a picture"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/btn_cancel_challenge"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="@color/red"
+        android:textColor="@color/black"
+        android:onClick="Home"
+        />
+    <Button
+        android:id="@+id/btn_validate_challenge"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="validate the challenge"
+        android:background="@color/yellow"
+        android:clickable="false"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

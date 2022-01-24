@@ -22,6 +22,7 @@
         android:text="create a challenge"
         android:background="@color/yellow"
         android:textColor="@color/black"
+        android:onClick="createChallenge"
         />
     <View android:layout_width="fill_parent"
         android:layout_height="2px"
