@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454538200020",
+    "project_id": "isepandroidproject",
+    "storage_bucket": "isepandroidproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454538200020:android:0f8b82249e2a408a328c41",
+        "android_client_info": {
+          "package_name": "com.isep.isepandroidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454538200020-laaahpco9kndilos64gc98kectmjf87t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPKaH09IsdTi3f3_n9K_pqyBtdUHWBM4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454538200020-laaahpco9kndilos64gc98kectmjf87t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/dark_blue"
+    android:weightSum="3"
+
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/create_challenge_btn"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create a challenge"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        />
+    <View android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/display_all_challenges_btn"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="see all the challenges"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        />
+    <View android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/profil_btn"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="profil"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        android:onClick="profil"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
